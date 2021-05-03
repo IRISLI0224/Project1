@@ -1,0 +1,126 @@
+
+/**Skills**/
+.services-section{
+	padding:3em 0;
+    display:flex;
+}
+.services__header{
+	text-align: center;
+	width: 85%;
+	margin: 0 auto;
+    font-weight: bolder;
+}
+.services__header h3
+{
+    font-size: 1.2em;
+	font-family: 'Arvo', serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #2a404e;
+}
+
+.services__header p{
+	line-height: 1.5em;
+	font-size: 15px;
+	color: #7e7e7e;
+	padding: 25px 0;
+}
+.services__sectiongrids {
+	text-align: center;
+    display:flex;
+    box-shadow: #7e7e7e;
+}
+.services__grid h4 {
+	font-size: 1em;
+	font-weight: bold;
+	padding: 15px 0;
+	color: #2a404e;
+	text-transform: uppercase;
+    width:200px;
+}
+
+/**map**/
+.map{
+	margin:0;
+	width:1500px; 
+	height:300px;
+	border:0;
+	display:flex;
+}
+
+.FrontPage{
+	width:auto;
+}
+.home {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	 align-items: center;
+	height: 100vh;
+	position: relative;
+	padding-top: 10em;
+  }
+  
+  .home h1 {
+	color: #ffffff;
+	font-size: 6em;
+	line-height: 1.2em;
+  }
+  .home-text{
+	  display:flex;
+	  font-size:30px;
+  }
+  
+  .home p {
+	color: rgba(250,250,250,0.7);
+  }
+  
+  .home .overlay {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.75);
+  }
+  
+  .home video {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	min-width: 100%;
+	min-height: 50%;
+	width: auto;
+	height: auto;
+	z-index: -100;
+	transform: translateX(-50%) translateY(-50%);
+	background-size: cover;
+	transition: 1s opacity;
+  }
+  
+.FrontPage{
+	width: auto;
+}
+
+ video{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    transform: translateX(-50%) translateY(-50%);
+    background-size: cover;
+    transition: 1s opacity;
+	object-fit: contain;
+	display: inline-block;
+    vertical-align: baseline;
+}
